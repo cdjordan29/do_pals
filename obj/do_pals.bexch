@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__do_pals.o
+[PROJECT FILES]
+G:\Radford Classes\itec320 - Ada\Program3\program_three.gpr
+20170316214842
+[BOUND OBJECT FILES]
+G:\Radford Classes\itec320 - Ada\Program3\obj\do_pals.o
+[GENERATED SOURCE FILES]
+b__do_pals.ads
+b__do_pals.adb
+b__do_pals.ali
+[RESULTING OPTIONS]
+-LG:\Radford Classes\itec320 - Ada\Program3\obj\
+-LG:\Radford Classes\itec320 - Ada\Program3\obj\
+-LC:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,165 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LONG_LONG_INTEGERS
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U do_pals%b		do_pals.adb		8d81ec98 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.generic_array_sort%s
+Z ada.containers.generic_constrained_array_sort%s
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092930 2d3ec45b ada.characters%s
+D a-chahan.ads		20160516092928 1601a50f ada.characters.handling%s
+D a-contai.ads		20160516092926 61e5e089 ada.containers%s
+D a-cgarso.ads		20160516092926 9129bfa8 ada.containers.generic_array_sort%s
+D a-cgarso.adb		20160516092928 59f5315a ada.containers.generic_array_sort%b
+D a-cgcaso.ads		20160516092926 9f1e835c ada.containers.generic_constrained_array_sort%s
+D a-cgcaso.adb		20160516092928 326e4f26 ada.containers.generic_constrained_array_sort%b
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-flteio.ads		20160516092928 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiflio.ads		20160516092926 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D do_pals.adb		20170324021418 2505cdef do_pals%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-carun8.ads		20160516092930 a903718d system.compare_array_unsigned_8%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 19|44r6 44r23 45r6 45r31 46r6 46r29 47r6 47r35 48r6 251r42
+X 2 a-charac.ads
+16K13*Characters 18e19 19|47r10 47r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 19|47w21 47r50
+71V13*To_Upper{string} 19|152s29
+X 4 a-contai.ads
+16K13*Containers 24e19 19|48r10 251r46
+X 5 a-cgarso.ads
+17E9 Index_Type 19|253r11
+18+9 Element_Type 19|254r11
+19A9 Array_Type(18+9)<17E9> 19|255r11
+21V19 "<"{boolean} 19|256r12
+24u26*Generic_Array_Sort 4|16k13 19|48w21 251r57
+X 6 a-cgarso.adb
+41U14 Sort[7|24] 8|34b26[19|251]
+X 7 a-cgcaso.ads
+24u26*Generic_Constrained_Array_Sort 4|16k13
+X 10 a-flteio.ads
+20K13*Float_Text_IO[16|46] 19|46w10 46r33
+X 11 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 19|45w10 45r35
+X 15 a-textio.ads
+49K13*Text_IO 471e16 19|44w10 44r27
+166U14*New_Line 19|204s7 214s14 217s7 227s14 230s7 240s14
+184V13*End_Of_File{boolean} 19|286s17
+187U14*Set_Col 19|209s14 222s14 235s14
+242U14*Put 19|210s14 211s14 213s14 223s14 224s14 226s14 236s14 237s14 239s14
+249U14*Get_Line 19|292s10
+250a7 Item{string} 19|292r19
+251i7 Last{natural} 19|294r19
+263U14*Put_Line 19|205s7 218s7 231s7 302s13 307s13 371s23 372s22 373s29 374s19
+297X4*End_Error 19|372r9
+298X4*Data_Error 19|371r9
+X 19 do_pals.adb
+50U11*do_pals 50b11 376l5 376t12
+53R9 lineInput 56e14 62r67 86r36 254r27
+54a7 individualLine{string} 87r11 88r15 137r44 142m52 144r33 152r56 157m57
+. 159r33 169m54 171r31 211r52 224r55 237r51 293m42 319r61 326m64 329r63
+55i7 lastPosition{natural} 87r33 88r40 138r60 143r63 145r63 147m52 148r33
+. 153r52 158r63 160r71 162m57 163r33 170r63 171r69 173m54 174r33 212r62 225r65
+. 238r61 295m44 306r58 315r64 332m64
+59I12 arrayOfRecordRange{natural} 62r35 66r38 72r32 74r35 76r31 253r27
+62A9 lineInput_array(53R9)<integer> 66r22 72r16 74r19 76r15 124r51 196r45
+. 255r27
+65R9 lineInput_GodRecord 68e14 266r53 269r26 357r19
+66a7 completeArray{62A9} 292m45 294m45 305r37 314r42 318r35 326m30 328r36
+. 332m30 363m37 366r29
+67i7 numOfLineRecords{natural} 350m21 364r42 367r34
+71R9 categorized_GodRecord 78e14 125r55 198r31
+72a7 palAsIs{62A9} 142m31 147m31 211m41 212r51
+73i7 palAsIsLastPosition{natural} 182m25 207r48
+74a7 palToUpper{62A9} 157m31 162m31 224m41 225r51
+75i7 palToUpperLastPosition{natural} 183m25 220r49
+76a7 notPal{62A9} 169m31 173m31 237m41 238r51
+77i7 notPalLastPosition{natural} 184m25 233r50
+86V13 lessThan{boolean} 86>23 86>28 256r27
+86r23 top{53R9} 87r7 87r29
+86r28 bottom{53R9} 88r8 88r33
+97V13 isPalindrome{boolean} 97b13 97>27 114l8 114t20 137s13 152s16
+97a27 str{string} 104r29 107r13 107r36
+99i7 forwardCounter{natural} 106m10 106r28 107r17
+100b7 output{boolean} 108m13 113r14
+104i11 i{integer} 107r40
+124U14 categorizeRecords 124b14 124>32 125<32 186l8 186t25 202s7
+124a32 completeRecord{62A9} 134r21 137r26 138r42 143r45 144r15 145r45 148r15
+. 152r38 153r34 158r45 159r15 160r53 163r15 170r45 171r13 171r51 174r15
+125r32 categorizedRecord{71R9} 142m13 147m13 157m13 162m13 169m13 173m13
+. 182m7 183m7 184m7
+127i7 palArrIndex{natural} 140m16 140r31 142r39 147r39 182r48
+128i7 upPalArrIndex{natural} 155m13 155r30 157r42 162r42 183r51
+129i7 notPalArrIndex{natural} 167m13 167r31 169r38 173r38 184r47
+134i11 i{integer} 137r41 138r57 143r60 144r30 145r60 148r30 152r53 153r49
+. 158r60 159r30 160r68 163r30 170r60 171r28 171r66 174r30
+196U14 putStrings 196b14 196>26 243l8 243t18 366s4
+196a26 completeRecord{62A9} 202r25
+198r7 finalCategorizedRecord{71R9} 202m41 207r25 211r18 212r28 220r26 224r18
+. 225r28 233r27 237r18 238r28
+207i15 i{integer} 211r49 212r59
+220i16 j{integer} 224r52 225r62
+233i17 k{integer} 237r48 238r58
+251U16 alphabetizeStrings[5|24] 6|32b26 19|363s4
+266U14 getAndStripStrings 266b14 266<34 352l8 352t26 361s4
+266r34 strippedLines{65R9} 326m16 332m16 350m7
+269r7 non_strippedLines{65R9} 292m27 292r27 294m27 294r27 305r19 314r24 318r17
+. 328r18
+272i7 strippedArrayIndex{natural} 326r44 332r44 340m10 340r32
+275i7 strippedLineCharIndex{natural} 323m16 323r41 327r56 333r40 346m10
+278i7 non_strippedArrIndex1{natural} 290m10 290r35 293r19 295r21 301r13 306r35
+. 350r41
+281i7 non_strippedArrIndex2{natural} 315r41 319r38 329r40 342m10 342r35
+314i14 i{integer} 319r76 329r78
+357r4 strippedLines{65R9} 361m23 363m23 363r23 364r28 366r15 367r20
+

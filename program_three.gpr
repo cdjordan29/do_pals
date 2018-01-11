@@ -1,0 +1,4 @@
+project program_three is 
+   for main use ("do_pals.adb");
+   for object_dir use "obj";
+end program_three;

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 62" line=" 313" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program3\program_three.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program3\do_pals.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program3\program_three.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program3\do_pals.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
